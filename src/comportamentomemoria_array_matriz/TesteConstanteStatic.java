@@ -1,4 +1,4 @@
-package comportamento_memoria;
+package comportamentomemoria_array_matriz;
 
 public class TesteConstanteStatic {
 	

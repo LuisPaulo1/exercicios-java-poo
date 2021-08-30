@@ -1,4 +1,4 @@
-package comportamento_memoria;
+package comportamentomemoria_array_matriz;
 
 import java.util.Scanner;
 
@@ -11,7 +11,7 @@ public class Exercicio3 {
 		
 		int[][] matrix = new int[m][n];
 		for (int i = 0; i < matrix.length; i++) {
-			for (int j = 0; j < matrix[i].length; j++) {
+			for (int j = 0; j < matrix[i].length; j++) {				
 				matrix[i][j] = sc.nextInt();
 			}
 		}

@@ -1,4 +1,4 @@
-package comportamento_memoria;
+package comportamentomemoria_array_matriz;
 
 import java.util.ArrayList;
 import java.util.List;
