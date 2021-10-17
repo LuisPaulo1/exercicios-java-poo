@@ -10,10 +10,10 @@ public class Exercicio1018 {
 	public static void main(String[] args) {
 		
 		DecimalFormatSymbols separador = new DecimalFormatSymbols(Locale.getDefault());
+		separador.setDecimalSeparator(',');		
 		Scanner sc = new Scanner(System.in);
 		int[] notas = new int[]{100, 50, 20, 10, 5, 2, 1};
 		StringBuilder resultado = new StringBuilder();
-		separador.setDecimalSeparator(',');		
 		int N = sc.nextInt();		
 		resultado.append(N).append("\n");
 		for (int i = 0; i < notas.length; i++) {

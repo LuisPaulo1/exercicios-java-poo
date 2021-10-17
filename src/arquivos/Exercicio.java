@@ -15,7 +15,7 @@ public class Exercicio {
 	public static void main(String[] args) {
 		
 		Locale.setDefault(Locale.US);
-		String pathIn = "caminho origem";
+		String pathIn = "C:\\Users\\luisp\\Downloads\\teste.txt";
 		List<Produto> lista = new ArrayList<>();		
 		
 		File sourceFile = new File(pathIn);
